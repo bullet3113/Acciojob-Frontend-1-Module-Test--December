@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 80vw;
+}
+
+.hero {
+    /* height: 100vh; */
+}
+
+.mtf {
+    /* width: 1rem; */
+    background-color: #fdd1d1;
+}
+
+#delivery-guy {
+    height: auto;
+    width: 100%;
+}
+
+#services {
+    width: 80vw;
+    margin: auto;
+    /* height: 50vh; */
+}
+
+#services-container {
+    column-gap: 20px;
+}
+
+.ele {
+    box-sizing: border-box;
+    /* width: 25%; */
+    /* height: ; */
+}
+
+#recipes {
+    width: 80vw;
+    margin: auto;
+
+    li a {
+        color: #f94a3d;
+    }
+
+    
+}
+
+#product-container {
+    display: flex;
+    column-gap: 20px;
+
+    button {
+        color: #f94a3d;
+        border-color:#f94a3d;
+    }
+}
+
+#product-container .card-body {
+    font-size: 1rem;
+}
+
+#testimonials {
+    width: 80vw;
+    margin: auto;
+}
+
+#testimonials .card-container {
+    width: 50%;
+    row-gap: 10px;
+
+    img {
+        border-radius: 50%;
+        object-fit: cover;
+        height: 4rem;
+        width: 4rem;
+        margin: auto;
+        margin-left: 10px;
+    }
+
+    .card {
+        border: 0;
+        
+    }
+}
+
+.customer-review-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#customer-review-block>div {
+    display: flex;
+    justify-content: space-between;
+    
+    h5 {
+        line-height: 1px;
+        font-weight: bold;
+    }
+}
+
